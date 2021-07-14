@@ -27,3 +27,11 @@ body {
     height: 40px;
     width: 100px;
 }
+
+.boton {
+    width: 30px;
+    height: 10px;
+    background-color: red;
+    cursor: pointer;
+    
+}
