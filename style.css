@@ -11,27 +11,8 @@ body {
 
     display: flex;
     justify-content: center;
+    background-image: url('./images/image.jpg');
     align-items: center;
     height: 100%;
-}
-
-.card_input {
-
-    height: 200px;
-    border: 1px solid red;
-    
-}
-
-.card_result {
-    border: 1px solid blue;
-    height: 40px;
-    width: 100px;
-}
-
-.boton {
-    width: 30px;
-    height: 10px;
-    background-color: red;
-    cursor: pointer;
     
 }
