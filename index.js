@@ -1,15 +1,13 @@
 "use strict"
 
-var nameComplete = document.getElementById('nameComplete').value;
+var nameComplete = document.getElementById('nameComplete');
 var email = document.getElementById('email').value;
-var password = document.getElementById('password').value;
+var password = document.getElementById('password');
 var error = document.getElementById('error');
 
 
 function enviarForm(){
-    console.log(nameComplete);
-    console.log(email);
-    console.log(password);
+    console.log('Nombre, email y password guardados');
 
     var mensajeError = [];
 

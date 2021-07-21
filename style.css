@@ -61,6 +61,7 @@ body {
 
 .container-button {
 
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +72,7 @@ body {
 
 .container-button button {
 
+    
     width: 150px;
     height: 40px;
     background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
@@ -85,5 +87,5 @@ body {
 
 
 .probando {
-    color: red;
+    color: black;
 }
