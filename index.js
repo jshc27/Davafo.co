@@ -1,13 +1,13 @@
 // var nameComplete = document.getElementById('nameComplete');
 // var email = document.getElementById('email');
 // var password = document.getElementById('password');
+
 // var error = document.getElementById('error');
 
 function validar(){
 
 
     let nameComplete = document.forms["formulario"]["nameComplete"].value;
-
     if(nameComplete == "") {
         alert("Ingresa tu nombre");
         return false;
@@ -34,6 +34,7 @@ function validar(){
     }
 
     console.log('guardando datos');
+    error.innerHTML = mensajeError.join(' , ');
     formulario.reset();
 
     return false;
