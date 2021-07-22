@@ -8,8 +8,6 @@ var error = document.getElementById('error');
 
 function enviarForm(){
 
-    console.log('guardando datos');
-
     var mensajeError = [];
 
     if(nameComplete.value === null || nameComplete.value === '') {
@@ -24,6 +22,7 @@ function enviarForm(){
         mensajeError.push('ingresa tu password');
     }
 
+    console.log('guardando datos');
     error.innerHTML = mensajeError.join(' , ');
     formulario.reset();
 
