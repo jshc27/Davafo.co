@@ -1,20 +1,31 @@
-
 var nameComplete = document.getElementById('nameComplete');
-var email = document.getElementById('email').value;
+var email = document.getElementById('email');
 var password = document.getElementById('password');
 var error = document.getElementById('error');
 
+function validar(){
 
 
-function enviarForm(){
+    
 
-    var mensajeError = [];
 
-    if(nameComplete.value === null || nameComplete.value === '') {
-        mensajeError.push('ingresa tu nombre completo');
-    } 
+    console.log('guardando datos');
+    formulario.reset();
 
-    if(email.value === null || email.value === '') {
+    return false;
+}
+
+
+
+
+
+var mensajeError = [];
+
+    if(nameComplete.value === '') {
+    mensajeError.push('ingresa tu nombre completo');
+} 
+
+    if(email.value === null || email.value === '') {         
         mensajeError.push('ingresa tu email');
     } 
 
@@ -22,9 +33,4 @@ function enviarForm(){
         mensajeError.push('ingresa tu password');
     }
 
-    console.log('guardando datos');
     error.innerHTML = mensajeError.join(' , ');
-    formulario.reset();
-
-    return false;
-}
