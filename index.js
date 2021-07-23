@@ -24,7 +24,7 @@ function validar(){
         alert("Ingresa tu email");
         return false;
     } else if ( password.length<=8) {
-        alert("Ingresa mas de 8 cacteres");
+        alert("Ingresa mas de 8 caracteres");
     }
 
     console.log('Los datos que ingresate se guardaron correctamente');
