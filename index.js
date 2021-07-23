@@ -6,7 +6,6 @@
 
 function validar(){
 
-
     let nameComplete = document.forms["formulario"]["nameComplete"].value;
     if(nameComplete == "") {
         alert("Ingresa tu nombre");
@@ -20,7 +19,7 @@ function validar(){
         alert("Ingresa tu email");
         return false;
     } else if (/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(email) ) {
-        alert("La dirección de email " + email + " es correcta!.");
+        console.log("La dirección de email " + email + " es correcta!.");
     } else {
         alert("La dirección de email es incorrecta!.");
     }
@@ -33,8 +32,7 @@ function validar(){
         alert("Ingresa mas de 8 cacteres");
     }
 
-    console.log('guardando datos');
-    error.innerHTML = mensajeError.join(' , ');
+    console.log('Los datos que ingresate se guardaron correctamente');
     formulario.reset();
 
     return false;
