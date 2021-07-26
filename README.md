@@ -19,3 +19,9 @@ https://jshc27.github.io/Davafo.co/
 ## License
 
 The MIT license (MIT)
+
+## Contributions
+I invite you to contribute to this project by improving the visual aspects or functionality and loading in the browser.
+
+## More information
+👉 https://www.npmjs.com/package/live-server
