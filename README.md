@@ -15,3 +15,6 @@ The purpose of this project is to work on a form with its respective validations
 https://jshc27.github.io/Davafo.co/
 
 <img src="https://user-images.githubusercontent.com/56690309/126931625-7d99942b-0ec1-4a5a-bc26-753acbeb9372.jpeg">
+
+License
+The MIT license (MIT)
