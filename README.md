@@ -12,7 +12,8 @@ The purpose of this project is to work on a form with its respective validations
 
 ## Demo
 
-https://jshc27.github.io/Davafo.co/
+- https://jshc27.github.io/Davafo.co/
+- https://www.figma.com/file/TUIIKHcXRXG35zgcDoe2cF/Davafo.co?node-id=0%3A1
 
 <img src="https://user-images.githubusercontent.com/56690309/126931625-7d99942b-0ec1-4a5a-bc26-753acbeb9372.jpeg">
 
